@@ -21,10 +21,7 @@ public class IndexApi implements BaseApi {
 
     @GetMapping("/third")
     public ResponseWrapper<?> getThird(@RequestParam String data) {
-
-        ResponseWrapper<?> result = restTemplate.
+        return restTemplate.
                 getForObject("http://example-provider/provider/third?data=" + data, ResponseWrapper.class);
-
-        return ok(result);
     }
 }
