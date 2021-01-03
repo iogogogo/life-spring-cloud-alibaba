@@ -12,6 +12,7 @@
         <module>example-provider</module>
         <module>example-consumer-rest</module>
         <module>example-consumer-openfeign</module>
+        <module>cloud-gateway-server</module>
     </modules>
     <name>life-spring-cloud-alibaba</name>
     <description>Spring Cloud Alibaba project for Spring Boot</description>
@@ -28,10 +29,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
