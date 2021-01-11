@@ -13,12 +13,15 @@
         <module>example-consumer-rest</module>
         <module>example-consumer-openfeign</module>
         <module>cloud-gateway-server</module>
+        <module>example-spring-security</module>
     </modules>
     <name>life-spring-cloud-alibaba</name>
     <description>Spring Cloud Alibaba project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot-admin.version>2.3.1</spring-boot-admin.version>

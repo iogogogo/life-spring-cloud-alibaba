@@ -15,6 +15,6 @@ management:
         include: '*'
   endpoint:
     nacos-discovery:
-      enabled: true # 修改spring.cloud.nacos.discovery.group以后，如果没哟改配置，则不会出现在admin-server
+      enabled: true
     health:
       show-details: always
